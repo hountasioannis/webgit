@@ -1,0 +1,7 @@
+.lastname::after{
+    content:  '\1F600';
+}
+
+.firstname::before{
+    content: '\1F604';
+}

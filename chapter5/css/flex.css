@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 500px;
+    border: 1px solid black;
+    align-items: center;
+}
+
+div[class^="box"] {
+    width: 50px;
+    height: 200px;
+    margin: 0 10px;
+    color: white;
+    background-color: rgb(3, 59, 59);
+    font-size: 3rem;
+    flex: 1;
+}
+
+.box1{
+  
+   
+}
+
+.box5{
+    
+}

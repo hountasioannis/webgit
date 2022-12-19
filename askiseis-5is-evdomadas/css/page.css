@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #363636;
+}
+
+.logo > img{
+    width: auto;
+    height: 120px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    height: 120px;
+}
+
+.nav li {
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 50px;
+}
+
+.nav  a {
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.nav  a:hover{
+    background-color: white;
+    color: #363636;
+}
+
+
+.home-img{
+    overflow: hidden;
+    height: calc(95vh - 120px);
+    background-image: url('../../img/MicrosoftTeams-image2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home-title{
+    width: 60%;
+    color:white;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.home-subtitle{
+    width: 40%;
+    color:white;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gap-bottom{
+    margin-bottom: 25px;
+}
+
+.main-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer{
+    display: flex;
+    height: 100px;
+    background-color: #363636;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0 10px;
+    margin-top: 25px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.social > span{
+    margin-right: 8px;
+}
+
+.social-text{
+    color: blue;
+    font-size: 1.5rem;
+    margin-right: 5px;
+   
+}
+

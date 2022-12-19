@@ -1,0 +1,258 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #762124;
+}
+
+
+
+.logo > img{
+    width: auto;
+    height: 120px;
+}
+
+.navbar{
+    width: 800px;
+}
+
+
+
+.navbar .nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    height: 120px;
+}
+
+.navbar .nav  a {
+    display: block;
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.navbar .nav  a:hover{
+    background-color: white;
+    color: #762124;
+    transition: all 1s ;
+}
+
+.navbar .nav  a:active{
+    background-color: cornflowerblue;
+}
+
+.navbar .dropdown{
+    position: relative;
+    font-size: 1.2rem;
+    
+}
+
+.navbar .dropdown-content{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: -10px;
+    padding-top: 50px;
+    background-color: #762124;
+    width: 140px;
+    list-style: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.navbar .dropdown-content > li{
+    width: 100%;
+    border-bottom: 1px solid #FFF ;
+}
+
+.navbar .dropdown-content > li :last-of-type{
+    border-bottom: none;
+}
+
+.navbar .dropdown-content a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 10px 10px;
+    color: white;
+}
+
+
+
+.navbar .dropdown > a {
+    position: relative;
+    z-index: 1;
+}
+
+.navbar .dropdown:hover > .dropdown-content{
+    display: flex;
+}
+
+.nav-toggle{
+    display: none; 
+    margin-right: 100px;
+}
+
+ .nav-toggle > button{
+    width: 50px;
+    height: 50px;
+}
+
+.home-img{
+    overflow: hidden;
+    height: calc(95vh - 120px);
+    background-image: url('../../img/MicrosoftTeams-image2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home-title{
+    width: 60%;
+    color:white;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.gap-bottom{
+    margin-bottom: 25px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    height: 150px;
+    background-color: #762124;
+    justify-content: space-between;
+    align-items: center;
+    color: wheat;
+    padding: 0 10px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.social > span{
+    margin-right: 10px;
+}
+
+.social-text{
+    color: blue;
+    font-size: 2rem;
+    margin-right: 5px;
+}
+
+@media (max-width:1000px){
+    .navbar{
+        display: none;
+    }
+
+     .nav-toggle{
+        display: block;
+    }
+}
+
+@media (max-width:992px){
+    .home-title > span{
+        font-size: 2.1rem;
+    }
+
+}
+
+@media (max-width:803px){
+    .home-title > span{
+        font-size: 1.8rem;
+    }
+
+    .logo>img{
+        width: auto;
+        height: 80px;
+    }
+}
+
+@media (max-width:710px){
+    .home-title > span{
+        font-size: 1.2rem;
+    }
+    .home-title{
+        line-height: 0.9;
+    }
+
+.logo>img{
+        width: auto;
+        height: 30px;
+    }
+
+    .nav-toggle >button{
+        height: 23px;
+        width: 23px;
+    }
+}
+
+
+.navbar-toggle{
+    display: none;
+}
+
+
+.navbar-toggle .nav,
+.navbar-toggle .dropdown-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar-toggle li{
+    width: 100%;
+    text-align: center;
+    list-style: none;
+}
+
+.navbar-toggle  a{
+    display: block;
+    font-size: 1.5rem;
+    padding: 10px 0;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-toggle .dropdown-content a{
+    font-size: 1rem;
+}
+
+.hidden{
+    display: none;
+}
+
+.show{
+    display: block;
+}

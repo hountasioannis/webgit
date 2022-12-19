@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    padding: 0 15px;
+}
+
+.header{
+    background-color: cornflowerblue;
+}
+
+.side{
+    background-color: orange;
+}
+
+.box{
+    height: 150px;
+    border: 1px solid black;
+    float: left;
+}
+
+.col1{
+    width: 8.33%;
+}
+
+.col2{
+    width: 16.66%;
+}
+
+.col3{
+    width: 25%;
+}
+
+.col4{
+    width: 33.33%;
+}
+
+.col5{
+    width: 41.66%;
+}
+
+.col6{
+    width: 50%;
+}
+
+.col7{
+    width: 58.33%;
+}
+
+.col8{
+    width: 66.66%;
+}
+
+.col9{
+    width: 75%;
+}
+
+.col10{
+    width: 83.33%;
+}
+
+.col1q{
+    width: 91.66%;
+}
+
+.col12{
+    width: 100%;
+}
+
+@media (max-width:768px){
+    .colsm1{
+        width: 8.33%;
+    }
+    
+    .colsm2{
+        width: 16.66%;
+    }
+    
+    .colsm3{
+        width: 25%;
+    }
+    
+    .colsm4{
+        width: 33.33%;
+    }
+    
+    .colsm5{
+        width: 41.66%;
+    }
+    
+    .colsm6{
+        width: 50%;
+    }
+    
+    .colsm7{
+        width: 58.33%;
+    }
+    
+    .colsm8{
+        width: 66.66%;
+    }
+    
+    .colsm9{
+        width: 75%;
+    }
+    
+    .colsm10{
+        width: 83.33%;
+    }
+    
+    .colsm11{
+        width: 91.66%;
+    }
+    
+    .colsm12{
+        width: 100%;
+    } 
+}

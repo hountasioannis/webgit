@@ -1,0 +1,23 @@
+h2[id], p[id] {
+    background-color: aquamarine;
+}
+
+a[href="#"]:hover{
+    background-color: blueviolet;
+}
+
+*[class^="info"]{
+    background-color: chartreuse;
+}
+
+*[class*="text"]{
+    background-color: red;
+}
+
+h2[class$="title"]{
+    font-style: italic;
+}
+
+a[href^="https"][href$=".gr"]{
+    color: green;
+}
