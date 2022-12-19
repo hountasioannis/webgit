@@ -1,0 +1,24 @@
+.ask-logo {
+    width: 800px;
+    height: auto;
+}
+
+.container {
+    width: 90%;
+}
+
+.ask-title {
+    color: #762124;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    font-family:'Roboto Slam', serif;
+    font-size: 2.5rem;
+}
+
+.ask-text {
+    text-indent: 10px;
+    font-family: Quicksand;
+    font-weight: 300;
+    font-size: 1rem;
+    color: rgb(45, 44, 44);
+}

@@ -1,0 +1,11 @@
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    transition: transform 2s ease-in;
+    transform-origin: right bottom;
+}
+
+.box1:hover{
+    transform:scale(3) rotate(180deg) translate(0 ,400px) skew(90deg);
+}

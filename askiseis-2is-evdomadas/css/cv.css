@@ -1,0 +1,43 @@
+
+div{
+    color: rgb(119, 70, 6) ;
+    width: 90%;
+}
+
+
+fieldset{
+    width: 400px;
+    background-color: rgb(255, 254, 254);
+    font-size: 1.2rem;
+    border: 7px solid gray;
+}
+
+hr{
+    height: 5px; 
+    color: black;
+    background-color: gray;
+}
+
+.cv-text{
+    background-color: rgb(197, 187,187);
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: justify;
+    text-indent: 10px;
+}
+
+ul{
+    list-style-type: disc ;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-stretch: normal;
+    
+}
+
+li.list{
+    list-style-type:circle;
+    }
+
+li {
+    padding: 0.6rem;
+}
