@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./weather.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="header">Weather App</div>
+
+        <div class="main"></div>
+
+        <div class="footer">
+            <input type="text" id="noteText" placeholder="City">
+            <button class="btn" type="button">OK</button>
+        </div>
+
+    </div>
+
+
+    <div class="row hidden">
+        <div id = "name" class = "weather-text"><b>city: </b><span></span></div>
+       <div id = "temp" class = "weather-text"><b>temperature:  </b><span></span><b> Celsius</b></div>
+       <div id = "temp_min" class = "weather-text"><b>min temp: </b><span></span><b> Celsius</b></div>
+       <div id = "temp_max" class = "weather-text"><b>max temp: </b><span></span><b> Celsius</b></div>
+       <div id="icon"><img id="wicon" src="" alt="Weather icon"></div>
+    </div>
+     
+      
+        
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+    <script type="module" src="./weather.js"></script>
+</body>
+</html>
